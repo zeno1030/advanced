@@ -1,0 +1,3 @@
+### traceTest
+GET http://localhost:8080/v2/request?itemId=hello
+Content-Type: application/json
