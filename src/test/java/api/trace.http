@@ -1,3 +1,6 @@
 ### traceTest
-GET http://localhost:8080/v2/request?itemId=hello
+GET http://localhost:8080/v3/request?itemId=hello
 Content-Type: application/json
+
+### traceTest 동시성 문제
+GET http://localhost:8080/v3/request?itemId=hello
